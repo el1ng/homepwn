@@ -1,0 +1,86 @@
+M48
+; DRILL file {KiCad (5.99.0-9812-gfee3c41c40)} date 03/20/21 22:32:54
+; FORMAT={-:-/ absolute / inch / decimal}
+; #@! TF.CreationDate,2021-03-20T22:32:54-07:00
+; #@! TF.GenerationSoftware,Kicad,Pcbnew,(5.99.0-9812-gfee3c41c40)
+; #@! TF.FileFunction,Plated,1,2,PTH
+FMAT,2
+INCH
+; #@! TA.AperFunction,ViaDrill
+T1C0.0100
+; #@! TA.AperFunction,ViaDrill
+T2C0.0150
+; #@! TA.AperFunction,ComponentDrill,Plated,PTH
+T3C0.0197
+; #@! TA.AperFunction,ViaDrill
+T4C0.0200
+; #@! TA.AperFunction,ComponentDrill,Plated,PTH
+T5C0.0320
+; #@! TA.AperFunction,ComponentDrill,Plated,PTH
+T6C0.0394
+%
+G90
+G05
+T1
+; via hole
+X6.875Y-4.11
+T2
+X6.185Y-4.39
+X6.255Y-4.155
+X6.3Y-4.24
+X6.355Y-4.345
+X6.47Y-4.305
+X6.485Y-4.135
+X6.605Y-4.32
+X6.6138Y-4.2856
+X6.615Y-3.87
+X6.71Y-4.265
+X6.795Y-4.41
+X6.84Y-4.2
+T4
+X5.96Y-4.684
+X6.206Y-4.596
+X6.79Y-4.62
+X6.8823Y-4.685
+T5
+; plated pad hole
+X6.31Y-3.845
+X6.3494Y-3.7663
+X6.3887Y-3.845
+X6.4281Y-3.7663
+X6.4675Y-3.845
+X6.5069Y-3.7663
+X6.5462Y-3.845
+X6.5856Y-3.7663
+T6
+X6.035Y-4.175
+X6.035Y-4.275
+X6.035Y-4.375
+X6.345Y-4.005
+X6.445Y-4.005
+X6.545Y-4.005
+X6.645Y-4.005
+T3
+; plated pad hole
+G00X6.0246Y-4.7682
+M15
+G01X6.0246Y-4.7958
+M16
+G05
+G00X6.2844Y-4.7682
+M15
+G01X6.2844Y-4.7958
+M16
+G05
+G00X6.5701Y-4.7682
+M15
+G01X6.5701Y-4.7958
+M16
+G05
+G00X6.8299Y-4.7682
+M15
+G01X6.8299Y-4.7958
+M16
+G05
+T0
+M30
