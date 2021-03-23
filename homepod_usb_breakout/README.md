@@ -7,6 +7,7 @@ In theory the UART control extra pins can also change between USB+UART and UART 
 # BOM
 
 | Id | Designator     | Quantity | Designation       | MFG        | Part             | DigiKey               | Mouser               |
+| -- | -------------- | -------- | ----------------- | ---------- | ---------------- | --------------------- | -------------------- |
 | 1  | J101,J102      | 2        | USB_B_Micro       | FCI        | 10118193-0001LF  | 609-4616-1-ND         | 649-10118193-0001LF  |
 | 2  | U103           | 1        | TPS22948DCKR      | TI         | TPS22948DCKR     | 595-TPS22948DCKR      | 595-TPS22948DCKR     |
 | 3  | D101,D102,D103 | 3        | BAT48JFILM        | Infineon   | BAT60AE6327HTSA1 | BAT60AE6327HTSA1CT-ND | 726-BAT60AE6327HTSA1 |
