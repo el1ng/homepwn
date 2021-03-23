@@ -9,9 +9,9 @@ This is a form fitting breakout for the bottom of the Homepod. The Homepod botto
 
 CTRL is a voltage controlled pin. It works as follows:
 
-| No Connect, 0V up to 1.8V | No Function               |
-| 1.8V to ~3.3V             | UART Enabled              |
-| 3.3 to 5V                 | UART Enabled, USB Enabled |
+    | No Connect, 0V up to 1.8V | No Function               |
+    | 1.8V to ~3.3V             | UART Enabled              |
+    | 3.3 to 5V                 | UART Enabled, USB Enabled |
 
 Unfortunately there does not seem to be additional functionality embedded in the CTRL or other pins. I disassembled multiple Homepods and traced the pins back to the A8 processor and PMIC to verify. There are some non populated components near where the control pin goes by that may have been present during development.
 
@@ -41,6 +41,7 @@ Mouser: 538-15167-0236
 
 You can also get a same side connector and solder the FCI connector reversed.
 
+You will need 4 M2 machine screws. 3mm to 5mm screws work well.
 
 # Installation
 
