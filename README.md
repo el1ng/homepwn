@@ -1,5 +1,7 @@
 # Homepwn
 
+<img src="https://user-images.githubusercontent.com/74847054/112539452-65072300-8d87-11eb-8157-51a5241915a0.jpeg" height="256">
+
 This repo contains KiCAD projects for a breakout to help jailbreak the homepod.
 
 There are 3 projects:
@@ -10,6 +12,8 @@ There are 3 projects:
 You will need homebreakout and either homepod_usb_breakout or homepod_usb_breakout_simple
 
 After soldering homebreakout, verify that the POGO pins do not touch each other. It requires a bit of patience and skill to solder them straight.
+
+(note the image above has one of the FFC connectors backwards)
 
 # Warning
 
