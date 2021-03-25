@@ -6,6 +6,7 @@ This is a form fitting breakout for the bottom of the Homepod. The Homepod botto
     
     TX = UART To Homepod (1.8V)
     RX = UART From Homepod (1.8V)
+    NC = No connect
 
 CTRL is a voltage controlled pin. It works as follows:
 
@@ -21,7 +22,7 @@ UART is 1.8V. It is most likely _not_ 3.3V compatible.
 
 Flip the Homepod upside down and plug it in. Really.
 
-After it enters DFU mode flip it right side up, or it will re-enter DFU mode. @DanyL has been working on a Checkra1n patch to make it not enter DFU mode.
+After it enters DFU mode flip it right side up, or it will re-enter DFU mode. @DanyL has been working on a checkra1n patch to make it not enter DFU mode.
 
 There was a lot of fun reverse engineering to figure out how this works. Might make for a good blog post one day.
 
