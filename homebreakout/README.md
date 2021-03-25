@@ -39,12 +39,10 @@ Molex 15167-0236
 DigiKey: WM22868-ND
 Mouser: 538-15167-0236
 
-You can also get a same side connector and solder the FCI connector reversed.
-
+You can also get a same side connector and solder the FCI connector reversed. I recommend getting one opposite side and one same side in case you accidentally flip one of the FFC connectors.
 You will need 4 M2 machine screws. 3mm to 5mm screws work well.
 
 # Installation
 
 Pogo pins face down, SLW85 connector goes up. The cutouts in the PCB are to help
 make sure the pogo pin alignment is correct.
-
