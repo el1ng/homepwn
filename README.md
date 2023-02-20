@@ -31,9 +31,7 @@ Print with the side going into the homepod facing upwards and print with support
 <img src="https://github.com/tihmstar/homepwn/raw/main/homebreakout_3dprint/sideview.jpg" height=256>
 <br>
 
-<img src="https://github.com/tihmstar/homepwn/raw/main/homebreakout_3dprint/bottomview.jpg" height=256>
-
-<img src="https://github.com/tihmstar/homepwn/raw/main/homebreakout_3dprint/topview.jpg" height=256>
+<img src="https://github.com/tihmstar/homepwn/raw/main/homebreakout_3dprint/bottomview.jpg" height=256> <img src="https://github.com/tihmstar/homepwn/raw/main/homebreakout_3dprint/topview.jpg" height=256>
 
 
 # Warning
