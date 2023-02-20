@@ -13,7 +13,7 @@ nop_height = 1.5;
 sidepin_width = 2.5;
 
 module holebox(x = 0, y = 0, z = 0, withHoles = 1){
-    translate([x,y,z+0.5]){
+    translate([x,y,z+1.5]){
         difference(){
             translate([0,0,box_height_extra/2])
             cube([box_length, box_width, box_height+box_height_extra], center = true);
@@ -37,19 +37,19 @@ module holebox(x = 0, y = 0, z = 0, withHoles = 1){
         
 
         //pin
-        translate([0, box_width/2 + nop_width/2, box_height/2-nop_height/2 - pin_pad])
+        translate([0, box_width/2 + nop_width/2, box_height/2-nop_height/2 - pin_pad-1])
             cube([nop_width, nop_width, nop_height], center = true);
-        translate([0, box_width/2 + nop_width/2, box_height/2-nop_height/2])
+        translate([0, box_width/2 + nop_width/2, box_height/2-nop_height/2-1])
             cube([nop_width, nop_width, nop_height], center = true);
         
         
         //sidepin right
-        translate([box_length/2 + nop_width/2, 0, 0])
-            cube([nop_width, sidepin_width, box_height], center = true);
+        translate([box_length/2 + nop_width/2, 0, -0.5])
+            cube([nop_width, sidepin_width, box_height-1], center = true);
 
         //sidepin left
-        translate([-(box_length/2 + nop_width/2), 0, 0])
-            cube([nop_width, sidepin_width, box_height], center = true);
+        translate([-(box_length/2 + nop_width/2), 0, -0.5])
+            cube([nop_width, sidepin_width, box_height-1], center = true);
         
     }
 }
