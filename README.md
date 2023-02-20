@@ -28,6 +28,12 @@ The ones i used have the following properties:
 
 Print with the side going into the homepod facing upwards and print with support. First solder wires to the pins, only then insert them into the adapter (otherwise the 3D printed plastic will melt). Make sure they have a good solder connection, otherwise the USB connection will be very unstable or will not work at all.
 
+<img src="https://github.com/tihmstar/homepwn/raw/main/homebreakout_3dprint/sideview.jpg" height=256>
+<br>
+
+<img src="https://github.com/tihmstar/homepwn/raw/main/homebreakout_3dprint/bottomview.jpg" height=256>
+
+<img src="https://github.com/tihmstar/homepwn/raw/main/homebreakout_3dprint/topview.jpg" height=256>
 
 
 # Warning
