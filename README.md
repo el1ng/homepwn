@@ -15,6 +15,21 @@ After soldering homebreakout, verify that the POGO pins do not touch each other.
 
 (note the image above has one of the FFC connectors backwards)
 
+# 3D print version
+Additionally this repo contains a 3D printable adapter, which exposes the connections and can be used for USB.  
+Note: UART connections are also exposed, but require an appropriate 1.8V UART to USB controller.  
+
+Additionally you will need M2x6 screws and Pogo pins.
+The ones i used have the following properties:
+- 1.02 mm outer diameter
+- 15.8 mm total length
+- 1.4  mm pin length  
+(i used these: https://www.amazon.de/dp/B07SKD8Q42)
+
+Print with the side going into the homepod facing upwards and print with support. First solder wires to the pins, only then insert them into the adapter (otherwise the 3D printed plastic will melt). Make sure they have a good solder connection, otherwise the USB connection will be very unstable or will not work at all.
+
+
+
 # Warning
 
 Jailbreaking your Homepod is not supported, and these design files were made from reverse engineering. While they should not cause physical damage to your Homepod assuming they are soldered correctly, you are ultimately responsible for any damage you cause.
